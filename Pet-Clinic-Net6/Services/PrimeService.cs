@@ -6,7 +6,7 @@
         {
             if (candidate < 2)
             {
-                return false;
+                return true;
             }
 
             for (var divisor = 2; divisor <= Math.Sqrt(candidate); divisor++)
