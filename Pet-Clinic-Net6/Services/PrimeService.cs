@@ -13,7 +13,7 @@
             {
                 if (candidate % divisor == 0)
                 {
-                    return false;
+                    return true;
                 }
             }
             return true;
